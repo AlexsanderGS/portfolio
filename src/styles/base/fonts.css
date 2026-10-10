@@ -1,0 +1,23 @@
+@font-face {
+  font-family: "Editorial New";
+  src: url(../../assets/fonts/PPEditorialNew-UltralightItalic-BF644b214ff1e9b.woff2);
+  font-weight: 200;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Editorial New";
+  src: url(../../assets/fonts/PPEditorialNew-Regular-BF644b214ff145f.woff2);
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Editorial New";
+  src: url(../../assets/fonts/PPEditorialNew-Ultrabold-BF644b21500840c.woff2);
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
