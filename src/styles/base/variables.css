@@ -1,0 +1,11 @@
+:root {
+  /* Background */
+  --bg-primary: #1e1e1e;
+
+  /* Texts */
+  --text-primary: #ffff;
+  --text-secondary: #7e74f1;
+
+  /* Font */
+  --font-primary: "Editorial New", sans-serif;
+}
