@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+  padding: 1rem 1rem;
+}
+
+.header nav ul {
+  display: flex;
+  list-style: none;
+
+  gap: 1rem;
+}
+
+.header nav ul li a {
+  font-size: 1.25rem;
+  font-weight: 200;
+  color: var(--text-primary);
+}
+
+.header nav ul li a:hover {
+  background-color: var(--text-secondary);
+
+  border-radius: 8px;
+  padding: 0.5rem;
+}
+
+.header nav ul li a:focus-visible {
+  text-decoration: underline;
+  text-decoration-color: var(--text-secondary);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 5px;
+}
