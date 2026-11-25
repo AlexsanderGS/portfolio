@@ -1,0 +1,40 @@
+.profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+  gap: 1rem;
+}
+
+.profile-pic img {
+  width: 300px;
+  height: 300px;
+
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.profile-infos {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  gap: 0.5rem;
+}
+
+.profile-infos .profile-name {
+  font-size: 2rem;
+  font-weight: 900;
+  color: var(--text-primary);
+}
+
+.profile-infos .profile-name span {
+  color: var(--text-secondary);
+}
+
+.profile-infos .profile-description {
+  font-size: 1.2rem;
+  font-weight: 400;
+  color: var(--text-primary);
+}
