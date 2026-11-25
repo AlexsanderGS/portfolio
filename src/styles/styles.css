@@ -6,5 +6,6 @@
 
 /* Components */
 @import url("./components/header.css");
+@import url("./components/main.css");
 @import url("./components/profile.css");
 @import url("./components/about.css");
