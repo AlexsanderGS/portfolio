@@ -15,8 +15,8 @@
       <nav id="navigation" aria-label="Navegação principal">
         <ul>
           <li><a href="#home">Home</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#about">Sobre</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
           <li><a href="#contact">Contato</a></li>
         </ul>
       </nav>
@@ -38,23 +38,47 @@
       </section>
 
       <section class="about" id="about">
-        <h2>Sobre Mim</h2>
-        <p class="about-description">
-          Desenvolvedor front-end, com formação em Análise e Desenvolvimento de
-          Sistemas. Minha paixão é ver projetos ganharem vida, e estou focado em
-          construir interfaces web intuitivas e dinâmicas. Atualmente, minhas
-          habilidades principais incluem HTML, CSS, JavaScript e React. Estou
-          buscando ativamente oportunidades para aplicar e expandir meu
-          conhecimento, contribuindo com equipes inovadoras e entregando
-          soluções front-end de qualidade.
-        </p>
+        <div class="about-infos">
+          <h2 class="about-title">Sobre Mim</h2>
+          <p class="about-description">
+            Desenvolvedor front-end, com formação em Análise e Desenvolvimento
+            de Sistemas. Minha paixão é ver projetos ganharem vida, e estou
+            focado em construir interfaces web intuitivas e dinâmicas.
+            Atualmente, minhas habilidades principais incluem HTML, CSS,
+            JavaScript e React. Estou buscando ativamente oportunidades para
+            aplicar e expandir meu conhecimento, contribuindo com equipes
+            inovadoras e entregando soluções front-end de qualidade.
+          </p>
+        </div>
 
-        <p class="graduation">
-          Análise e Desenvolvimento de Sistemas - Universidade Ritter dos Reis.
-          Concluído.
-        </p>
-        <p class="technology">HTML, CSS, JS, React, TS.</p>
-        <p class="courses">Carreira Desenvolvedor Front-End React - Alura.</p>
+        <div class="about-technologies">
+          <h3>Tecnologias</h3>
+          <div class="technologies-icons">
+            <img src="./src/assets/icons/html.svg" alt="HTML5" />
+            <img src="./src/assets/icons/css.svg" alt="CSS3" />
+            <img src="./src/assets/icons/javascript.svg" alt="JavaScript" />
+            <img src="./src/assets/icons/react.svg" alt="React" hidden />
+            <img
+              src="./src/assets/icons/typescript.svg"
+              alt="TypeScript"
+              hidden
+            />
+            <img src="./src/assets/icons/node.svg" alt="Node.js" hidden />
+          </div>
+        </div>
+
+        <div class="about-graduation">
+          <h3>Graduação</h3>
+          <p>
+            Análise e Desenvolvimento de Sistemas - Universidade Ritter dos
+            Reis.
+          </p>
+        </div>
+
+        <div class="about-courses">
+          <h3>Cursos e Especializações</h3>
+          <p>Carreira Desenvolvedor Front-End React - Alura.</p>
+        </div>
       </section>
     </main>
   </body>
